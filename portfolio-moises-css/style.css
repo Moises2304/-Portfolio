@@ -1,0 +1,233 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color:#000;
+    height:100vh;
+    color: #fff;
+}
+
+section span{
+    color:#00ff08cc;
+}
+a{
+    border: 10px;
+    width: 50px;
+    height: 50px;
+    color: #00ff08cc;
+}
+
+.interface{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+.flex{
+    display: flex;
+}
+  
+.btn-contacto button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00ff08cc;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 2s;}
+
+    button:hover{
+        box-shadow: 0px 0px 8px #00ff08 ;
+            transform: scale(1.04);}
+
+  
+
+/* estilizacaoa do heder*/
+
+header{
+    padding: 40px 10%;       
+}
+ 
+header > .interface{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+header a{
+    color: #7a7373 ;
+    text-decoration: none;
+    display: inline-block;
+    transition: 2s;
+    ;
+
+}
+header a:hover{
+ color: #fff ;
+ transform: scale(1.05);
+}
+
+header nav ul {
+    list-style: none ;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding:0 40px
+    ;
+}
+   
+    header {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+/* estilizacao de foto*/
+.imagem-MAN img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+/*estilizacao de sobre*/
+section.sobre{
+    padding: 80px 4%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}.sobre .txt{
+    color: #fff;
+}
+.sobre .txt h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt h2 samp{
+    color: #00ff08;
+    display: block;
+}
+
+.sobre .txt p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/*estililizacao de contacto*/
+ section.formulario{
+    padding:80px 4% ;
+ }
+form{
+    max-width: 500px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+ 
+form input , form textarea{
+    width: 100%;
+    background-color: #4e4e4e;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none ;
+}
+form.enviar input{
+    margin-top: 120px;
+}
+
+/*esti;lizar projectos*/
+
+section.projectos {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3a;  
+    display: flex;
+    gap: 10px;  
+   
+ }
+ 
+section.projectos .flex{
+    gap: 50px;
+    margin-top: 70px;
+}
+ 
+ 
+ .img-port {
+     width: 360px;
+     height: 460px;
+     background-color: aqua; 
+     background-size: cover;
+     background-position:100% 0% ;
+     transition: 2s;
+     border-radius: 40px;
+     cursor: pointer;
+     position: relative;
+ 
+ }
+
+ .img-port:hover{
+    background-position:100% 100% ;
+   
+ }
+ .overley{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+background-color: #21242177;
+border-radius: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+font-weight: 600;
+color: #fff;
+opacity: 0;
+transition: .5s;
+}
+.overley:hover{
+opacity: 1;}
+
+ samp{
+    color: #00ff08;
+    display: block;
+}
+/* estilo do footer*/
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3a; 
+    display: flex;
+    
+}
+
+
+footerb .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer p {
+    color: #00ff08;
+}
