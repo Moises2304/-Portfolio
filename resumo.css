@@ -47,6 +47,54 @@
         color: #00ff08;
      }
     
+    /* ESTILIZACAO GERAL*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image:url(assets/img/background/img.7.webp);
+        height:100vh;
+    }
+    
+    .interface{
+        max-width: 1280px;
+        margin:0 auto;
+    }
+    
+    .flex{
+        display: flex;
+    }
+      
+    .btn-contacto button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 700;
+        background-color: #00ff08cc;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 2s;}
+    
+    
+    button:hover{
+    box-shadow: 0px 0px 8px #00ff08 ;
+    transform: scale(1.04);
+      
+    }
+    
+    h2.titulo{
+        color: #fff;
+        font-size: 38px;
+        text-align: center;
+     
+     }
+    
+      samp{
+        color: #00ff08;
+     }
+    
     
     /* ESTILIZACAO DO HEDER*/
     
@@ -322,6 +370,30 @@ form.enviar input{
     margin-top: 120px;
 }
 
+
+
+/* estilo do footer*/
+footer{
+    box-shadow: 0 0 40px 10px #ffffff3a; 
+    display: flex;
+    margin: 10px;
+  color: #fff;
+}
+a{
+    color: #fff;
+}
+
+footerb .flex{
+    justify-content: first baseline;
+}
+
+footer .line-footer p {
+    color: #00ff08;
+}
+footer.img{
+    margin: 0px;
+    padding : 0px;
+}
 
 
 /* estilo do footer*/

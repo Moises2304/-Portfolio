@@ -1,0 +1,170 @@
+
+    /* ESTILIZACAO GERAL*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image:url(assets/img/background/img.7.webp);
+        height:100vh;
+    }
+    
+    .interface{
+        max-width: 1280px;
+        margin:0 auto;
+    }
+    
+    .flex{
+        display: flex;
+    }
+      
+    .btn-contacto button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 700;
+        background-color: #00ff08cc;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 2s;}
+    
+    
+    button:hover{
+    box-shadow: 0px 0px 8px #00ff08 ;
+    transform: scale(1.04);
+      
+    }
+    
+    h2.titulo{
+        color: #fff;
+        font-size: 38px;
+        text-align: center;
+     
+     }
+    
+      samp{
+        color: #00ff08;
+     }
+    
+    
+    /* ESTILIZACAO DO HEDER*/
+    
+    header{
+        padding: 40px 10%;  
+        box-shadow: 0 0 40px 10px #ffffff3a;      
+    }
+     
+    header > .interface{
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+        
+    }
+    
+    header a{
+        color: #7a7373 ;
+        text-decoration: none;
+        display: inline-block;
+        transition: 2s;
+    
+    }
+    header a:hover{
+     color: #fff ;
+     transform: scale(1.05);
+    }
+    
+    header nav ul {
+        list-style: none ;
+    }
+    
+    header nav ul li{
+        display: inline-block;
+        padding:0 40px
+        ;
+    }
+       
+        header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+        }
+    
+    
+    
+    /* ESTILICAO PROJECTOS*/
+    
+    section.projectos {
+        padding: 80px 4%;
+  
+        display: flex;
+        gap: 10px;  
+       
+     }
+     
+    section.projectos .flex{
+        gap: 50px;
+        margin-top: 70px;
+    }
+     
+     
+     .img-port {
+         width: 360px;
+         height: 460px;
+         background-color: aqua; 
+         background-size: cover;
+         background-position:100% 0% ;
+         transition: 2s;
+         border-radius: 40px;
+         cursor: pointer;
+         position: relative;
+     
+     }
+    
+     .img-port:hover{
+        background-position:100% 100% ;
+       
+     }
+     .overley{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+    background-color: #21242177;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+    }
+    .overley:hover{
+        opacity: 1;
+    }
+
+/* estilo do footer*/
+footer{
+    box-shadow: 0 0 40px 10px #ffffff3a; 
+    display: flex;
+    margin: 10px;
+  color: #fff;
+}
+a{
+    color: #fff;
+}
+
+footerb .flex{
+    justify-content: first baseline;
+}
+
+footer .line-footer p {
+    color: #00ff08;
+}
+footer.img{
+    margin: 0px;
+    padding : 0px;
+}
